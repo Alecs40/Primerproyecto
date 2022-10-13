@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+	<h1>Pagina web de proyecto final unidad 2</H1>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Proyecto final Unidad2 Programacion Web
+	</title>
+	<link rel="stylesheet" type="text/css" href="css externo1.css"/>
+
+</head>
+<body>
+	<h1> Uso de Formularios</h1>
+	<h3>Uso de Input Text y button </h3>
+	<p><i>INGRESAR DATOS DEL USUARIO</p></i>
+<form>
+<label for="1Nombre"> Nombre </label><br>
+<input type="text" id=1Nombre name="Nombre"><br>
+<label for="2Nombre"> Apellido Paterno</label><br>
+<input type="text" name="2Nombre" name="Apellido Paterno"><br>
+<label for="3Nombre"> Apellido Materno</label><br>
+<input type="text" name="3Nombre" name="Materno"><br><br><br>
+<input type="Button" onclick="alert ('Gracias por dar click')" value="Click para Enviar">
+<!--se agrego un mensaje al momento de dar click envia una alerta de la pagina -->
+</form>
+<h3>Uso de Radio Buttons </h3>
+<p><b>Escoge el navegador web que mas uses</b></p><br>
+<form action="">
+<input type="Radio"id=Chrome name="nav_fav"value="Chrome">
+<label for="Chrome">Chrome</label><br>
+<input type="Radio"id=Opera name="nav_fav"value="Opera">
+<label for="Opera">Opera</label><br>
+<input type="Radio"id=Edge name="nav_fav"value="Edge">
+<label for="Edge">Edge</label><br><br>
+<input type="button" onclick="alert('A mi tambien me gusta ese navegador')" value="Enviar">
+<!--se agrego un mensaje al momento de dar click envia una alerta de la pagina diciendo que "tambien me gusta el navegador":)-->
+
+</form>
+<div><br>
+	<h3>Uso de Checkboxes</h3>
+	<p><b>Escoge los helados que mas te gusten</b></p>
+	<form action="">
+		<input type="Checkbox" name="Helado1" value="Chocolate">
+		<label for=Helado1>Chocolate</label><br>
+		<input type="Checkbox" name="Helado2" value="Fresa">
+		<label for=Helado2>Fresa</label><br>
+		<input type="Checkbox" name="Helado3" value="Vainila">
+		<label for=Helado3>Vainilla</label><br>
+	</form>
+<h3>Uso de Select</h3>
+	<p><b>Escoge lo que mas te guste hacer en el dia</b></p>
+	<label for="pasatiempo">Pasatiempo </label>
+	<select id="pasatiempo" name="lista de pasatiempos" form="forma de pasatiempo">
+		<option value="Comer"> Comer</option>
+		<option value="Dormir"> Dormir</option>
+		<option value="Beber"> Beber</option>
+	</select><br><br><br>
+
+	<form action="">
+		<input type="Checkbox" name="Helado1" value="Chocolate">
+		<label for=Helado1>Chocolate</label><br>
+		<input type="Checkbox" name="Helado2" value="Fresa">
+		<label for=Helado2>Fresa</label><br>
+		<input type="Checkbox" name="Helado3" value="Vainila">
+		<label for=Helado3>Vainilla</label><br>
+	</form><br><br><br>
+	<h2>Uso de audio en Html</h2>
+	<audio controls autoplay>
+		<source src="wearenotarockband.com - Fight to Survive 2.ogg" type="audio/ogg">
+			<source src="wearenotarockband.com - Fight to Survive 2.mp3" type="audio/mpeg">
+				Tu navegador no soporta este Audio
+	</audio></div>
+	<style>
+		Table,th,td{border:2px solid;}
+	</style>
+	<h2>
+		Tabla Ejemplo
+	</h2>
+	<!--En este apartado se inserta una tabla dentro de la web-->
+	<p><b>En este ejemplo de tabla se enlistara datos ficticios de compañias al igual que nombres</p></b>
+	<table style="width: 100%">
+		<tr>
+			<th>Compañia</th>
+			<th>Contacto</th>
+			<th>Nombre del pais</th>
+			<th>Estado</th>
+		</tr>
+		<tr>
+			<td>Compañia Patito</td>
+			<td>Gerardo Jimenez</td>
+			<td>Mexico </td>
+			<td>Nuevo Leon </td>
+		</tr>
+		<tr>
+			<td>Compañia Patito2</td>
+			<td>Gerardo Cantu</td>
+			<td>Mexico </td>
+			<td>Oaxaca</td>
+		</tr>
+		<tr>
+			<td>Compañia Patito3</td>
+			<td>Luis Juarez</td>
+			<td>Mexico </td>
+			<td>Michoacan</td>
+		</tr>
+	</table>
+<!--Aqui se termina la tabla-->
+<div>
+
+<h2>Ejercicio de Link</h2>
+<p>En este apartado de la pagina se anexara un link</p>
+<!--Se subira un vinculo de la pagina del ITNL-->
+<br>
+<img src="ITNL.jpg"width=80 height="100">
+<a href="http://www.itnl.edu.mx/">Vinculo a la pagina del ITNL</a>
+</div>
+<div><p><i>Se anexa Pagina de Tutorial</i></p>
+	<br>
+	<img src="YT.png"width=80 height="100">
+	<a href="https://www.youtube.com/watch?v=UrkX0074Uqo">Tutorial de HTML</a>
+	<!--Se subira un vinculo a pagina de you tube de tutorial de HTML-->
+</div>
+<div>
+<iframe src="practica1.htm" style="width:200px;height:200px;"title"Actividad de la practica 1"></iframe>
+</div>
+<hr>
+<h1><b>Por su atencion muchas Gracias ¡¡¡¡¡</b></h1>
+</body>
+</html>
